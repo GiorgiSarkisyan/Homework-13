@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+.home-login-section{
+    background: #2F80ED;
+    display: inline-block;
+    width: 400px;
+    height:  900px;
+}
+.home-login-section-title, .home-login-section-title h1, .home-login-section-logo, .home-login-section-buttons{
+    display: inline-block;
+}
+.home-login-section-title{
+    height: 200px;
+    width: 400px;
+}
+.home-login-section-logo{
+    margin-left: 44px;
+    margin-top: 64px;
+    color: white;
+}
+.home-login-section-logo img{
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.home-login-section-buttons{
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+button{
+    width: 300px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+}
+.signup-button{
+    margin-bottom: 30px;
+}
+button:hover{
+    color: rgba(255, 255, 255, 0.74)
+}
